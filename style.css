@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Ubuntu:ital@1&display=swap');
+body{
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
+    text-align: center;
+}
+h1{
+    width: 100%;
+    margin: 0;
+    background-color: black;
+    color: aliceblue;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+    height: 30px;
+    font-family: 'Bona Nova', serif;
+}
+.about{
+    width: 70%;
+    font-size: 20px;
+    background-color: rgb(13, 236, 236);
+    margin-top: 30px;
+    text-align: left;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 15px;
+    color: navy;
+    margin-left: 200px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+a{
+    color: black;
+    font-size: 50px;
+}
+a:hover{
+    color: black;
+    font-size: 60px;
+    text-decoration: underline;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+img:hover{
+    width: 220px;
+    height: 220px;
+    
+}
+#footer
+{
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    line-height: 3;
+    background-color: black;
+    color: white;
+    position: fixed;
+    border-radius: 100px;
+    box-shadow: 5px 5px beige;
+}
